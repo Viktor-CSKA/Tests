@@ -1,0 +1,3 @@
+POST https://jsonplaceholder.typicode.com/posts
+
+{"title": "portfolio", "body": "autotests", "userId": 1}
