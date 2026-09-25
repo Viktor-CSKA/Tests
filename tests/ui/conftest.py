@@ -2,14 +2,43 @@ from pathlib import Path
 
 import allure
 import pytest
-from playwright.sync_api import Page
+from playwright.sync_api import Page, expect
 
 # Путь к папке с видео и трейсом теста строится так же, как в самом pytest-playwright
 # (версия плагина зафиксирована в requirements.txt).
 from pytest_playwright.pytest_playwright import _build_artifact_test_folder
 
+from config import UI_URL
+from data.saucedemo import Users
+from pages.cart_page import CartPage
+from pages.inventory_page import InventoryPage
+
 # Элементы, в которых приложения обычно показывают ошибки пользователю.
 ERROR_SELECTORS = "[data-test='error'], [role='alert'], .error-message-container.error"
+
+
+@pytest.fixture
+def inventory_page(page: Page) -> InventoryPage:
+    """Каталог под standard_user. Вход через cookie сессии, а не через форму:
+    форма логина проверяется отдельными тестами, а остальным тестам она только добавляет время."""
+    with allure.step("Авторизоваться как standard_user (cookie сессии)"):
+        page.context.add_cookies([{"name": "session-username", "value": Users.STANDARD, "url": UI_URL}])
+    inventory = InventoryPage(page).open()
+    expect(inventory.title).to_have_text("Products")
+    return inventory
+
+
+@pytest.fixture
+def cart_with(inventory_page: InventoryPage):
+    """Фабрика: кладёт товары в корзину и открывает её."""
+
+    def _cart_with(*products) -> CartPage:
+        for product in products:
+            inventory_page.add_to_cart(product)
+        inventory_page.header.open_cart()
+        return CartPage(inventory_page.page)
+
+    return _cart_with
 
 
 @pytest.fixture(autouse=True)
@@ -25,13 +54,12 @@ def browser_logs(page: Page, request):
     )
     page.on(
         "response",
-        lambda resp: resp.status >= 400
-        and logs["network"].append(f"{resp.status} {resp.request.method} {resp.url}"),
+        lambda resp: resp.status >= 400 and logs["network"].append(f"{resp.status} {resp.request.method} {resp.url}"),
     )
 
     request.node.ui_page = page
     request.node.ui_logs = logs
-    yield logs
+    return logs
 
 
 def _attach_visible_errors(page: Page):
@@ -78,7 +106,9 @@ def pytest_runtest_makereport(item, call):
         if report.failed:
             allure.attach(page.content(), name="HTML страницы", attachment_type=allure.attachment_type.HTML)
     except Exception as error:  # страница могла уже закрыться — отчёт важнее вложения
-        allure.attach(repr(error), name="Не удалось снять состояние страницы", attachment_type=allure.attachment_type.TEXT)
+        allure.attach(
+            repr(error), name="Не удалось снять состояние страницы", attachment_type=allure.attachment_type.TEXT
+        )
     _attach_logs(item.ui_logs)
 
 

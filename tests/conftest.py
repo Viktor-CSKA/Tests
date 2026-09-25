@@ -1,11 +1,11 @@
 import json
 import platform
+import shutil
 from pathlib import Path
 
 import pytest
 
 from config import API_URL, UI_URL
-
 
 # Разбивка падений по причинам на вкладке Categories отчёта.
 CATEGORIES = [
@@ -25,6 +25,15 @@ CATEGORIES = [
 ]
 
 
+@pytest.hookimpl(tryfirst=True)
+def pytest_configure(config):
+    """Очищает результаты прошлого прогона. Делает это только главный процесс:
+    при параллельном запуске (-n) воркеры иначе стирали бы результаты друг друга."""
+    alluredir = config.getoption("allure_report_dir", None)
+    if alluredir and not hasattr(config, "workerinput"):
+        shutil.rmtree(alluredir, ignore_errors=True)
+
+
 @pytest.hookimpl(trylast=True)
 def pytest_sessionfinish(session):
     """Пишет блок Environment и категории падений для Allure-отчёта."""
@@ -37,6 +46,7 @@ def pytest_sessionfinish(session):
         "OS": f"{platform.system()} {platform.release()}",
         "API.URL": API_URL,
         "UI.URL": UI_URL,
+        "Browser": ", ".join(session.config.getoption("browser", None) or ["chromium"]),
     }
     content = "\n".join(f"{key}={value}" for key, value in env.items())
     (Path(alluredir) / "environment.properties").write_text(content + "\n", encoding="utf-8")
