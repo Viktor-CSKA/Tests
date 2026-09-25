@@ -1,0 +1,33 @@
+[project]
+name = "qa-automation-portfolio"
+version = "1.0.0"
+description = "Портфолио автотестов: API (requests + pydantic) и UI (Playwright) с Allure-отчётами"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+    "-v",
+    "--strict-markers",
+    "--alluredir=allure-results",
+    "--video=retain-on-failure",
+    "--tracing=retain-on-failure",
+    "--output=test-results",
+]
+markers = [
+    "api: API-тесты",
+    "ui: UI-тесты (Playwright)",
+    "smoke: критичные проверки, быстрый прогон",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "PT", "SIM", "C4", "RUF"]
+ignore = [
+    "RUF001",  # кириллица в строках — это нормально для русскоязычного отчёта
+    "RUF002",
+    "RUF003",
+]
