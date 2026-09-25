@@ -1,0 +1,15 @@
+PUT https://jsonplaceholder.typicode.com/posts/1
+
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/json; charset=UTF-8
+Content-Length: 177
+
+{
+  "id": 1,
+  "title": "Serious inside else memory if six.",
+  "body": "Group through despite cause cause believe son. Work special total financial role together range.",
+  "userId": 1
+}

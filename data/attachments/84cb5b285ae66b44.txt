@@ -1,0 +1,65 @@
+HTTP 200 OK — 135 ms
+
+Date: Fri, 25 Sep 2026 14:16:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 718
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"649-0I2UDGoFBv++8yn4SExaagmUbQM"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=0ZjvTgAuwvAb%2B4AOKXQR41wDAxWGaIPQR6LOwnnFYLo%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1790345772"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=0ZjvTgAuwvAb%2B4AOKXQR41wDAxWGaIPQR6LOwnnFYLo%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1790345772"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 998
+x-ratelimit-reset: 1790345811
+Accept-Ranges: bytes
+cf-cache-status: MISS
+CF-RAY: a40aa5364c872975-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+  {
+    "postId": 50,
+    "id": 246,
+    "name": "magnam earum qui eaque sunt excepturi",
+    "email": "Jaycee.Turner@euna.name",
+    "body": "quia est sed eos animi optio dolorum\nconsequatur reiciendis exercitationem ipsum nihil omnis\nbeatae sed corporis enim quisquam\net blanditiis qui nihil"
+  },
+  {
+    "postId": 50,
+    "id": 247,
+    "name": "vel aut blanditiis magni accusamus dolor soluta",
+    "email": "Wilbert@cheyenne.ca",
+    "body": "explicabo nam nihil atque sint aut\nqui qui rerum excepturi soluta quis et\net mollitia et voluptate minima nihil\nsed quaerat dolor earum tempore et non est voluptatem"
+  },
+  {
+    "postId": 50,
+    "id": 248,
+    "name": "voluptatum sint dicta voluptas aut ut",
+    "email": "Rebecca_Hessel@edna.net",
+    "body": "assumenda aut quis repellendus\nnihil impedit cupiditate nemo\nsit sequi laudantium aut voluptas nam dolore magnam\nminima aspernatur vero sapiente"
+  },
+  {
+    "postId": 50,
+    "id": 249,
+    "name": "quibusdam dignissimos aperiam sint commodi",
+    "email": "Christiana@lawrence.info",
+    "body": "non repudiandae dicta et commodi\nsint dolores facere eos nesciunt autem quia\nplaceat quaerat non culpa quasi dolores voluptas\ndolorum placeat non atque libero odit autem sunt"
+  },
+  {
+    "postId": 50,
+    "id": 250,
+    "name": "perferendis magnam natus exercitationem eveniet sunt",
+    "email": "Samara@shaun.org",
+    "body": "doloremque quae ratione cumque\nexcepturi eligendi delectus maiores necessitatibus veniam\nfugiat exercitationem consectetur vel earum\nquia illo explicabo molestiae enim rem deserunt et omnis"
+  }
+]

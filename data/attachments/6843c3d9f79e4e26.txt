@@ -1,0 +1,10 @@
+POST https://jsonplaceholder.typicode.com/posts
+
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/json; charset=UTF-8
+Content-Length: 2
+
+{}

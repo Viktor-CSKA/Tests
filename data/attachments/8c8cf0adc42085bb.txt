@@ -1,0 +1,12 @@
+PATCH https://jsonplaceholder.typicode.com/posts/1
+
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/json; charset=UTF-8
+Content-Length: 47
+
+{
+  "title": "Serious inside else memory if six."
+}

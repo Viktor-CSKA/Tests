@@ -1,0 +1,65 @@
+HTTP 200 OK — 243 ms
+
+Date: Fri, 25 Sep 2026 14:16:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 648
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"5c6-w6TTNkI7icBwISsAlYmIzk7op4I"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=0ZjvTgAuwvAb%2B4AOKXQR41wDAxWGaIPQR6LOwnnFYLo%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1790345772"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=0ZjvTgAuwvAb%2B4AOKXQR41wDAxWGaIPQR6LOwnnFYLo%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1790345772"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1790345811
+Accept-Ranges: bytes
+cf-cache-status: MISS
+CF-RAY: a40aa5360ce65473-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+  {
+    "postId": 100,
+    "id": 496,
+    "name": "et occaecati asperiores quas voluptas ipsam nostrum",
+    "email": "Zola@lizzie.com",
+    "body": "neque unde voluptatem iure\nodio excepturi ipsam ad id\nipsa sed expedita error quam\nvoluptatem tempora necessitatibus suscipit culpa veniam porro iste vel"
+  },
+  {
+    "postId": 100,
+    "id": 497,
+    "name": "doloribus dolores ut dolores occaecati",
+    "email": "Dolly@mandy.co.uk",
+    "body": "non dolor consequatur\nlaboriosam ut deserunt autem odit\nlibero dolore non nesciunt qui\naut est consequatur quo dolorem"
+  },
+  {
+    "postId": 100,
+    "id": 498,
+    "name": "dolores minus aut libero",
+    "email": "Davion@eldora.net",
+    "body": "aliquam pariatur suscipit fugiat eos sunt\noptio voluptatem eveniet rerum dignissimos\nquia aut beatae\nmodi consequatur qui rerum sint veritatis deserunt est"
+  },
+  {
+    "postId": 100,
+    "id": 499,
+    "name": "excepturi sunt cum a et rerum quo voluptatibus quia",
+    "email": "Wilburn_Labadie@araceli.name",
+    "body": "et necessitatibus tempora ipsum quaerat inventore est quasi quidem\nea repudiandae laborum omnis ab reprehenderit ut\nratione sit numquam culpa a rem\natque aut et"
+  },
+  {
+    "postId": 100,
+    "id": 500,
+    "name": "ex eaque eum natus",
+    "email": "Emma@joanny.ca",
+    "body": "perspiciatis quis doloremque\nveniam nisi eos velit sed\nid totam inventore voluptatem laborum et eveniet\naut aut aut maxime quia temporibus ut omnis"
+  }
+]

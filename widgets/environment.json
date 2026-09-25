@@ -1,1 +1,1 @@
-[{"values":["3.11.16"],"name":"Python"},{"values":["Linux 6.17.0-1022-azure"],"name":"OS"},{"values":["https://jsonplaceholder.typicode.com"],"name":"API.URL"},{"values":["https://www.saucedemo.com"],"name":"UI.URL"}]
+[{"values":["3.11.16"],"name":"Python"},{"values":["Linux 6.17.0-1022-azure"],"name":"OS"},{"values":["https://jsonplaceholder.typicode.com"],"name":"API.URL"},{"values":["https://www.saucedemo.com"],"name":"UI.URL"},{"values":["chromium, firefox"],"name":"Browser"}]
