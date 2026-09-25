@@ -18,9 +18,9 @@ class CartPage(BasePage):
     def names(self) -> list[str]:
         return self.item_names.all_inner_texts()
 
-    @allure.step("Убрать из корзины: {product.name}")
     def remove(self, product: Product) -> None:
-        self.page.locator(f"[data-test='remove-{product.slug}']").click()
+        with allure.step(f"Убрать из корзины: {product.name}"):
+            self.page.locator(f"[data-test='remove-{product.slug}']").click()
 
     @allure.step("Перейти к оформлению заказа")
     def checkout(self) -> None:

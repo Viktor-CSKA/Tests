@@ -33,14 +33,14 @@ class InventoryPage(BasePage):
     def remove_button(self, product: Product):
         return self.page.locator(f"[data-test='remove-{product.slug}']")
 
-    @allure.step("Добавить в корзину: {product.name}")
     def add_to_cart(self, product: Product) -> None:
-        self.add_button(product).click()
+        with allure.step(f"Добавить в корзину: {product.name}"):
+            self.add_button(product).click()
 
-    @allure.step("Убрать из корзины: {product.name}")
     def remove_from_cart(self, product: Product) -> None:
-        self.remove_button(product).click()
+        with allure.step(f"Убрать из корзины: {product.name}"):
+            self.remove_button(product).click()
 
-    @allure.step("Открыть карточку товара: {product.name}")
     def open_product(self, product: Product) -> None:
-        self.item_names.filter(has_text=product.name).click()
+        with allure.step(f"Открыть карточку товара: {product.name}"):
+            self.item_names.filter(has_text=product.name).click()
