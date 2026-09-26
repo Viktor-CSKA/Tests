@@ -1,0 +1,51 @@
+HTTP 200 OK — 7 ms
+
+Date: Sat, 26 Sep 2026 09:56:08 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=283Rq4B7yNTKu01dNQmiV5S9dFiWdHuRan10nb%2FzjS4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1790308961"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=283Rq4B7yNTKu01dNQmiV5S9dFiWdHuRan10nb%2FzjS4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1790308961"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1790308971
+Age: 21184
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: a41165a0eae0eb25-SJC
+alt-svc: h3=":443"; ma=86400
+
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}

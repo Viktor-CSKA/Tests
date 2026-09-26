@@ -1,7 +1,0 @@
-401 POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
-401 POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
-FAILED GET https://www.saucedemo.com/assets/bike-light-1200x1500-DxcZRFOA.jpg — NS_BINDING_ABORTED
-FAILED GET https://www.saucedemo.com/assets/bolt-shirt-1200x1500-mR0ldpVS.jpg — NS_BINDING_ABORTED
-FAILED GET https://www.saucedemo.com/assets/sauce-pullover-1200x1500-BfbI-PSd.jpg — NS_BINDING_ABORTED
-FAILED GET https://www.saucedemo.com/assets/red-onesie-1200x1500-BrSuq0ic.jpg — NS_BINDING_ABORTED
-FAILED GET https://www.saucedemo.com/assets/red-tatt-1200x1500-E-qp6aYf.jpg — NS_BINDING_ABORTED
