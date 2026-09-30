@@ -1,0 +1,2 @@
+[error] [JavaScript Error: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 502."]
+[error] [JavaScript Error: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN. (Reason: CORS request did not succeed). Status code: (null)."]

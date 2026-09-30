@@ -1,0 +1,4 @@
+404 GET https://www.saucedemo.com/inventory.html
+FAILED POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN — <unknown error>
+401 POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
+FAILED GET https://www.saucedemo.com/assets/checkmark-VLWQafip.png — NS_BINDING_ABORTED
