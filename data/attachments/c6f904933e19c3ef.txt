@@ -1,0 +1,3 @@
+404 GET https://www.saucedemo.com/inventory.html
+401 POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
+401 POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
