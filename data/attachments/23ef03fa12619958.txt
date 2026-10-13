@@ -1,0 +1,49 @@
+HTTP 200 OK — 20 ms
+
+Date: Tue, 13 Oct 2026 12:45:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"1ff-2iureAUIawGXrTsK9ruBm43T5to"
+expires: -1
+pragma: no-cache
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3599994
+x-ratelimit-reset: 1790812826
+Age: 10992
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: HIT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WK%2Bn9OA3K2bNnAR3eMnMgONEIp5hQp1TjVKWZ%2BJTNPW2Pb69w64rde7R5j4X3BcuqulqhTimRgrxoH%2FVW3lxAaRX2DH19LIiaqxq04lP4fiWOriskJdzjldnsC1XhO%2B436iWCmS3koR8Ibje3n9u"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a49e71163fbbc339-EWR
+alt-svc: h3=":443"; ma=86400
+
+{
+  "id": 10,
+  "name": "Clementina DuBuque",
+  "username": "Moriah.Stanton",
+  "email": "Rey.Padberg@karina.biz",
+  "address": {
+    "street": "Kattie Turnpike",
+    "suite": "Suite 198",
+    "city": "Lebsackbury",
+    "zipcode": "31428-2261",
+    "geo": {
+      "lat": "-38.2386",
+      "lng": "57.2232"
+    }
+  },
+  "phone": "024-648-3804",
+  "website": "ambrose.net",
+  "company": {
+    "name": "Hoeger LLC",
+    "catchPhrase": "Centralized empowering task-force",
+    "bs": "target end-to-end models"
+  }
+}
