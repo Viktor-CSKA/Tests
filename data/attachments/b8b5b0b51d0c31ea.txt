@@ -1,0 +1,49 @@
+HTTP 200 OK — 17 ms
+
+Date: Thu, 15 Oct 2026 10:00:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires: -1
+pragma: no-cache
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3598094
+x-ratelimit-reset: 1791674335
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Bagxr3bPpBVuf1BTsHqQMsnTLfwKt9Xy9wzYnZTojH9tdUramaSv2ht0a7ylSxZeOFDdWfMsABOwL71qt2zo%2B6tTRWjFy%2BsM5wzDmvf3QhSPuuNRdkeG388le9abR2beiRio1bLrX1DT1C9ma%2Blx"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Age: 9807
+cf-cache-status: HIT
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a4adfa063fff0b78-LAX
+alt-svc: h3=":443"; ma=86400
+
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}

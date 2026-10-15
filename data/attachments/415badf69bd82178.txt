@@ -1,0 +1,32 @@
+HTTP 201 Created — 200 ms
+
+Date: Thu, 15 Oct 2026 10:00:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 189
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"bd-NfiFo+IUtgIY003FKf+8OKItfGg"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+pragma: no-cache
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3599997
+x-ratelimit-reset: 1792061395
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kIAfO1ryRmLD5elfa4KBhZjWLKAPa%2FtUVEkYr3sQtpdWRD8Ib02dLvWyGZ1SdMEvZpKqyViK7DTqjRon8BQn5YZQwpzFrVMmOcER37%2BhZAjJVlF%2BfBhipVXR%2BodLmx%2FblFFnuZ%2Bp3d2Hlo6t%2BuOF"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4adfa05cde58e47-LAX
+alt-svc: h3=":443"; ma=86400
+
+{
+  "title": "Serious inside else memory if six.",
+  "body": "Group through despite cause cause believe son. Work special total financial role together range.",
+  "userId": 1,
+  "id": 101
+}
