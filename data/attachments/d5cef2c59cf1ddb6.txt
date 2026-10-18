@@ -1,0 +1,31 @@
+HTTP 200 OK — 236 ms
+
+Date: Sun, 18 Oct 2026 09:40:49 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: no-cache
+etag: W/"bb-l4ULhTUPv0Tz2DALuiuf8LktDfU"
+expires: -1
+pragma: no-cache
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3599995
+x-ratelimit-reset: 1792317624
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CT67hNnGedsRuTv2hIW%2F0wbiQYUtGEeFkzpW6cwkDIKm3aVfz3fjZmMYN0B1or468RDkEUy8oG%2FD1Fd3SwKMp%2B03%2BlYvZ1PTN46mbkBiTRa1FsdNCo%2FP%2Fkc1wwRK8F%2Fmds5vqLaQ6hWqv54xQ9Yy"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a4c6956e3c6fed36-SJC
+alt-svc: h3=":443"; ma=86400
+
+{
+  "id": 1,
+  "title": "Serious inside else memory if six.",
+  "body": "Group through despite cause cause believe son. Work special total financial role together range.",
+  "userId": 1
+}
