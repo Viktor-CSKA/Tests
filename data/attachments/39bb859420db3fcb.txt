@@ -1,2 +1,0 @@
-404 GET https://www.saucedemo.com/inventory.html
-FAILED GET https://www.saucedemo.com/assets/checkmark-VLWQafip.png — NS_BINDING_ABORTED

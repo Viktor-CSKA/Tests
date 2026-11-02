@@ -1,4 +1,0 @@
-404 GET https://www.saucedemo.com/inventory.html
-404 GET https://www.saucedemo.com/cart.html
-FAILED POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN — net::ERR_ABORTED
-FAILED POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN — net::ERR_ABORTED
