@@ -1,0 +1,31 @@
+HTTP 200 OK — 58 ms
+
+Date: Fri, 06 Nov 2026 12:59:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: no-cache
+etag: W/"fc-4EOQZrb3DW/szz8b5fAc0CMaqSU"
+expires: -1
+pragma: no-cache
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3599997
+x-ratelimit-reset: 1793970027
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tAQuDkFwmucv70JJFoi1tMs8Gv6en0ZP7bpxqC%2FTvQ7xAXoQ7ztTutBMdexlNjQi636LReYljDjFCARHy%2FysMHg6dmC1BC6Sh1YSNX5P%2Bpa54dj8Diko9RSMVLsIKvhRhmlERFvAzR9XTASDlSJ7"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a56446966ce34cbe-MSP
+alt-svc: h3=":443"; ma=86400
+
+{
+  "userId": 1,
+  "id": 1,
+  "title": "Serious inside else memory if six.",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
