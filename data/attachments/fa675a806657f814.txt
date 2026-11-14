@@ -1,0 +1,25 @@
+HTTP 200 OK — 87 ms
+
+Date: Sat, 14 Nov 2026 12:15:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: no-cache
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+expires: -1
+pragma: no-cache
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3599997
+x-ratelimit-reset: 1794661220
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7f%2FkCmVwz20ifTDJYA6%2Bq3tWrWH971cBPkgFqwEmZPqKS6w7IWhtEYVl83lXBOzyX7GYbFz0E9qLdv4knHdFaK0zETzuNCtRVd3XODjK%2FSq1wwBlC0iXzGHmrlOjLR1touZp5TiHi4PbQVbvvR9d"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a5a5f1472cf2f71c-LAX
+alt-svc: h3=":443"; ma=86400
+
+{}
