@@ -1,0 +1,32 @@
+HTTP 200 OK — 42 ms
+
+Date: Tue, 17 Nov 2026 14:32:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+expires: -1
+pragma: no-cache
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3599999
+x-ratelimit-reset: 1790812826
+Age: 15792
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: HIT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2Ftx9Zuctfg2oBsiOSjCLE8G%2BJzkPKNTv2FcbX%2Bzy7YpyGv%2BHMMkdCxyxzQYA3h5wGYw1xocQ7buLuY203mYwvMJ%2F36c26y4Y0Fx%2FsJmoJ7BNsSJe0uNJjfiy0G%2BFE2SL15uL0ZSqpB6yM8UEwrlr"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a5bf71e5cc1a302c-PDX
+alt-svc: h3=":443"; ma=86400
+
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
