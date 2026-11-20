@@ -1,0 +1,26 @@
+HTTP 404 Not Found — 18 ms
+
+Date: Fri, 20 Nov 2026 14:05:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+expires: -1
+pragma: no-cache
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3599999
+x-ratelimit-reset: 1795167965
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Age: 18788
+cf-cache-status: HIT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4xYdW1HOhBIvQ4kam9cN38iN5Rf%2Fik9dia5fKkqDqjj9v%2FFN6XViP6Y12eTT1iUvu%2Bv3tf5X2pAlaDEVjSXLsWf2vtTBrpG4RD5HTV%2BLAE4Eixb1J0xuEw5Qbso88adoqqK%2F4%2FSJMlpPAtnGANML"}]}
+Server: cloudflare
+CF-RAY: a5d802a8ae13032e-SEA
+alt-svc: h3=":443"; ma=86400
+
+{}
