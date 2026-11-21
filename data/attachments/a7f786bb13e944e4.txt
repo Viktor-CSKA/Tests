@@ -1,0 +1,1 @@
+404 GET https://www.saucedemo.com/inventory.html

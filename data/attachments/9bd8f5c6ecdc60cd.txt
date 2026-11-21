@@ -1,0 +1,29 @@
+HTTP 201 Created — 113 ms
+
+Date: Sat, 21 Nov 2026 13:31:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 15
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+pragma: no-cache
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 3600000
+x-ratelimit-remaining: 3599995
+x-ratelimit-reset: 1795268765
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XBPe54SdsdhloURUKhzlAja%2FIEln7ymRnvqP65W8%2BE6AH5JOhly2r5sKUrHKmkyk7EhwMA%2B3m6T10RPcITJDGLojZkHhVvOO3GhSEaITagRppEbeY0UiWkJWJw%2Bxj5Sd8HzOQqWoOpPHzYA3JbC1"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a5e00d5e5df9a1c1-MSP
+alt-svc: h3=":443"; ma=86400
+
+{
+  "id": 101
+}
