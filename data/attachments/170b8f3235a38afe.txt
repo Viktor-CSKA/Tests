@@ -1,0 +1,2 @@
+FAILED GET https://www.saucedemo.com/assets/sauce-pullover-1200x1500-BfbI-PSd.jpg — NS_BINDING_ABORTED
+FAILED GET https://www.saucedemo.com/assets/red-onesie-1200x1500-BrSuq0ic.jpg — NS_BINDING_ABORTED
